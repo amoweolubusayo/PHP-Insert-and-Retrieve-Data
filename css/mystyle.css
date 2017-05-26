@@ -1,0 +1,41 @@
+.image{
+    width: 200px;
+    height: 200px;
+    }
+ .tilligetdivclass{
+              margin-top: 150px;
+          }
+.aclass{
+    text-decoration: none;
+    color: #fff;
+}
+.asidebarclass{
+    color: green;
+/*    font-weight: bold;*/
+}
+a:hover{
+    text-decoration: none;
+    background-color: transparent;
+    color: inherit;
+    
+}
+body{
+    background-image: url(../nature.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.sidebar-text-color{
+    color: #5cb85c;
+    font-size: large;
+}
+.text{
+  color: #fff;
+}
+.button-text{
+    font-size: 20px;
+}
+.thd{
+    color: #eea236;
+}
