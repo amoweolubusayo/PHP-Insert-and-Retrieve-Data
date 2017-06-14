@@ -4,6 +4,7 @@
      include_once '../myfirstproject/classes/RegisterController.php';
    }
 ?>
+<!DOCTYPE html>
 <html>
    <head>
        <link rel="stylesheet" href="css/bootstrap.css">
