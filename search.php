@@ -20,13 +20,13 @@
             <div class="col-md-4 col-md-offset-4 tilligetdivclass">
             <form method="post" action="">
                  <div row="">
-                 <div class="col-md-8">
-                 <input type="text" placeholder="Country" name="country" class="form-control"/>
-                 </div>
-                 <div class="col-md-4">
-                     <input type="submit" name="do-search" value="Search" class="btn btn-sm btn-block btn-warning"/>
+                    <div class="col-md-8">
+                        <input type="text" placeholder="Country" name="country" class="form-control"/>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="submit" name="do-search" value="Search" class="btn btn-sm btn-block btn-warning"/>
 
-                 </div>
+                    </div>
                  </div>
             </form>
         </div>
@@ -34,17 +34,17 @@
         <div class="col-sm-6 col-sm-offset-3">
         <table class="table table-striped table-bordered table-responsive">
             <thead>
-            <th><span class="text">Name</span></th>
-            <th><span class="text">Email</span></th>
+                <th><span class="text">Name</span></th>
+                <th><span class="text">Email</span></th>
             </thead>
             <tbody id="persondetails">
-            <?php
-            if(isset($_POST['do-search']))
-            {
-            include_once '../myfirstproject/classes/SearchController.php';
-            }
-            ?>
-            </tbody>
+                <?php
+                if(isset($_POST['do-search']))
+                    {
+                        include_once '../myfirstproject/classes/SearchController.php';
+                    }
+                ?>
+                </tbody>
         </table>
         </div>
        </div>
